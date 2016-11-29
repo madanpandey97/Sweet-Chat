@@ -1,0 +1,107 @@
+body{
+  font-family: 'Belgrano''Belgrano';
+}
+/* Custom container */
+.container-fixed {
+  margin: 10% auto;
+  max-width: 480px;
+}
+
+  
+.navbar-nav
+{
+float:right;
+font-size:17px;
+}
+
+
+h3 a
+{
+font-size: 24pt;
+}
+
+
+.navbar-inverse .navbar-brand {
+    color: yellow;
+}
+.web{
+  float:left;
+  margin-top:15px;
+  margin-left: -90px;
+  font-size:17px;
+}
+.webwork{
+  height: 55px;
+  background-color:black;
+  bottom: 0;
+  width: 100%;
+  left:0;
+   margin-bottom:0px;
+
+}
+.social{
+  float: right;
+  margin-top: 15px;
+  margin-right: -40px;
+}
+.social li {
+  display: inline;
+  font-size:1.5em;
+  margin: 0 10px;
+
+
+}
+#chat{
+  background: white;
+  border-style: 3px; 
+  height: 300px;
+  width: 750px; 
+  margin-right:100px;
+  overflow: scroll;
+}
+
+input[type='text']{
+  width: 100%;
+  height: 40px;
+  border:1px solid gray;
+  border-radius: 5px;
+
+}
+input[type='submit']{
+  width: 100%;
+  height: 40px;
+  border:1px solid SeaGreen;
+  border-radius: 5px;
+  
+}
+input[type='submit']:hover{
+  width: 100%;
+  height: 40px;
+  border:1px solid gray;
+  border-radius: 5px;
+  background: ;
+  color:white;
+  
+}
+textarea{
+  width: 100%;
+  height: 40px;
+  border:1px solid gray;
+  border-radius: 5px;
+  
+}
+.main .btn-round{
+  background-color: : green;
+}
+
+.navbar-fixed-bottom {
+      font-size: 12px;
+      line-height: 18px;
+      background-color: black;
+    }
+    .navbar-fixed-bottom .navbar-inner {
+        min-height: 22px;
+    }
+    .navbar-fixed-bottom .p {
+        margin: 2px 0 2px;
+    }
